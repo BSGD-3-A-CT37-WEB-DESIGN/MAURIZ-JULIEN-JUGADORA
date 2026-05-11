@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mauriz Jugadora BSGD 3-A</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: rgb(191, 252, 230);
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+
+    #loginPage{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: linear-gradient(
+        135deg,
+        rgb(191, 252, 230),
+        rgb(101, 220, 180),
+        rgb(110, 255, 172)
+      );
+    }
+
+    .login-container{
+      width:350px;
+      padding:40px;
+      background:white;
+      border-radius:20px;
+      box-shadow:0 8px 25px rgba(77, 43, 37, 0.2);
+      text-align:center;
+    }
+
+    .login-container h1{
+      color:rgb(77, 43, 37);
+      margin-bottom:30px;
+      font-size:32px;
+    }
+
+    .input-group{
+      margin-bottom:20px;
+      text-align:left;
+    }
+
+    .input-group label{
+      display:block;
+      margin-bottom:8px;
+      color:rgb(115, 73, 65);
+      font-weight:bold;
+    }
+
+    .input-group input{
+      width:100%;
+      padding:12px;
+      border:2px solid rgb(101, 220, 180);
+      border-radius:10px;
+      outline:none;
+      font-size:15px;
+    }
+
+    .login-btn{
+      width:100%;
+      padding:12px;
+      border:none;
+      border-radius:10px;
+      background:rgb(77, 43, 37);
+      color:white;
+      font-size:16px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .login-btn:hover{
+      background:rgb(115, 73, 65);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="loginPage">
+    <div class="login-container">
+
+      <h1>Welcomeee!</h1>
+
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" placeholder="Enter your username">
+      </div>
+
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password">
+      </div>
+
+      <button class="login-btn">Login</button>
+
+    </div>
+  </section>
+
+</body>
+</html>
